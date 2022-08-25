@@ -1,3 +1,46 @@
 * {
   box-sizing: border-box;
 }
+
+/* roboto-regular - latin */
+@font-face {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/Roboto/roboto-v30-latin-regular.eot"); /* IE9 Compat Modes */
+  src: local(""),
+    url("../fonts/Roboto/roboto-v30-latin-regular.eot?#iefix")
+      format("embedded-opentype"),
+    /* IE6-IE8 */ url("../fonts/Roboto/roboto-v30-latin-regular.woff2")
+      format("woff2"),
+    /* Super Modern Browsers */
+      url("../fonts/Roboto/roboto-v30-latin-regular.woff") format("woff"),
+    /* Modern Browsers */ url("../fonts/Roboto/roboto-v30-latin-regular.ttf")
+      format("truetype"),
+    /* Safari, Android, iOS */
+      url("../fonts/Roboto/roboto-v30-latin-regular.svg#Roboto") format("svg"); /* Legacy iOS */
+}
+
+body {
+  font-family: "Roboto";
+  color: white;
+  background-color: #333333;
+}
+
+footer {
+  background-color: blueviolet;
+}
+
+a {
+  color: darkcyan;
+}
+
+h1,
+h2 {
+  text-decoration: underline;
+  text-underline-offset: 5px;
+}
+
+.profile-pic {
+  border-radius: 15px;
+}
